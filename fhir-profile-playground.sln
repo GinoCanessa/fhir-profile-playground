@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fhir-profile-playground-cli", "src\fhir-profile-playground-cli\fhir-profile-playground-cli.csproj", "{5C756065-1FB2-4912-A51C-B07F5F3E03B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D4DAAF26-D998-4ADF-B3D8-CC94C4F10445}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CONTRIBUTING.MD = CONTRIBUTING.MD
+		LICENSE = LICENSE
+		README.md = README.md
+		THIRDPARTYNOTICES.md = THIRDPARTYNOTICES.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C756065-1FB2-4912-A51C-B07F5F3E03B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C756065-1FB2-4912-A51C-B07F5F3E03B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C756065-1FB2-4912-A51C-B07F5F3E03B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C756065-1FB2-4912-A51C-B07F5F3E03B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33ADC290-79B5-4A96-9FF7-83277DD981C4}
+	EndGlobalSection
+EndGlobal
