@@ -25,5 +25,15 @@ namespace fhir_profile_playground_cli
             return new UsCoreRaceWrapper(extension);
         }
 
+        /// <summary>
+        /// An Extension extension method that converts an extension to the us core race omb category.
+        /// </summary>
+        /// <param name="extension">The extension to act on.</param>
+        /// <returns>An UsCoreRace.OmbCategory.</returns>
+        public static UsCoreRaceWrapper.OmbCategory AsUsCoreRaceOmbCategory(this Extension extension)
+        {
+            return new UsCoreRaceWrapper.OmbCategory(extension);
+        }
+
     }
 }

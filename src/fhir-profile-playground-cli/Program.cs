@@ -81,7 +81,17 @@ namespace fhir_profile_playground_cli
 
                 foreach (UsCoreRaceWrapper race in usCorePatient.UsCoreRace)
                 {
-                    
+                    if (race.HasOmbCategory())
+                    {
+                        foreach (UsCoreRaceWrapper.OmbCategory ombCategory in race.OmbCategories)
+                        {
+                            Console.WriteLine(
+                                $"Found UsCoreRace.ombCategory:" +
+                                $" {ombCategory.Value.Display}" +
+                                $" ({ombCategory.Value.System}#{ombCategory.Value.Code})");
+                        }
+                    }
+
                     //if (race.Extension != null)
                     //{
                     //    foreach (Extension subExt in race.Extension)
